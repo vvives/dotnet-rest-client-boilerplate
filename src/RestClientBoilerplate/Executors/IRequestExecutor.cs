@@ -19,7 +19,7 @@ namespace RestClientBoilerplate.Executors
         /// </summary>
         /// <param name="requestBody">The request body.</param>
         /// <returns>
-        /// The asynchronous task that performs the request.
+        /// A task that represents the asynchronous operation.
         /// </returns>
         Task<string> ExecuteRequestAsync(string requestBody);
     }
